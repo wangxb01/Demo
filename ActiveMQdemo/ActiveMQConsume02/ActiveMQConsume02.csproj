@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Apache.NMS">
+      <HintPath>D:\软件集合\ActiveMq\Apache.NMS-1.6.0-bin\net-4.0\debug\Apache.NMS.dll</HintPath>
+    </Reference>
+    <Reference Include="Apache.NMS.ActiveMQ">
+      <HintPath>D:\软件集合\ActiveMq\Apache.NMS.ActiveMQ-1.6.4-bin\build\net-4.0\debug\Apache.NMS.ActiveMQ.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
